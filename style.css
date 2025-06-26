@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header ~ div , p{
+    margin: 20px;
+}
