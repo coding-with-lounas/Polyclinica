@@ -1,8 +1,39 @@
+body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0px;
+}
+
+.page1{
+   background-color: aqua;
+   background-size: 100%;
+}
+
 .header{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-.header ~ div , p{
+.header ~ a , p{
     margin: 20px;
+}
+.connecter{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.connecter + svg{
+    width: 1%;
+    height: 1%;
+ 
+
+}
+.container{
+    
 }
