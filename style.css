@@ -6,9 +6,11 @@ body {
 }
 
 .page1{
-    background-size: 100vh;
+   height: 55vh;
    background-color: rgb(0,235,199);
-  }
+   background-size: 100%;
+   
+}
 
 .header{
     display: flex;
@@ -61,4 +63,35 @@ body {
 
 .p-description {
     margin: 0px;
+}
+
+.container2{
+     margin-top: 2.5%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.img-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-opt{
+    display: flex;
+   
+}
+.button-opt a{
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+.reserver{
+    border: none;
+    background-color: rgb(0,235,199);
+}
+.plusinfo{
+    border: 1px solid black;
+
 }
