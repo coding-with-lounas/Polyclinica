@@ -18,6 +18,7 @@ body {
 }
 .inside-header{
     display: flex;
+    flex-shrink: 1;
 }
 .inside-header  a , p{
     padding: 10px;
@@ -26,22 +27,24 @@ body {
     text-decoration: none;
 }
 .connecter{
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 .connecter:hover{
-    background-color: rgb(68, 0, 255);
+    /* background-color: rgb(68, 0, 255); */
+    background-color: #2563eb;
     color: black;
 }
-.connecter + svg{
-    width: 1%;
-    height: 1%;
+.connecter svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
 }
 .container1{
     display:flex;
